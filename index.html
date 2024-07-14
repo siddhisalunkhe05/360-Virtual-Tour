@@ -1,0 +1,654 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <style>
+    #panorama {
+        width: 400px;
+        height: 760px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "1",
+        "sceneFadeDuration": 1000
+    },
+
+    "scenes": {
+        "1": {
+        "hfov": 70,
+        "pitch": 33.25,
+        "yaw": 90.5,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvm5xrG.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "2",
+                 "hfov": 70,
+        "pitch": 33.25,
+        "yaw": 90.5
+            }  
+         ]
+    },
+   
+   "2": {
+        "hfov": 70,
+        "pitch": -0.47,
+        "yaw": -182.68,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmaVp4.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            {    "hfov": 70,
+        "pitch": -0.47,
+        "yaw": -182.68,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "3"
+            },
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "25"
+            }  
+         ]
+    },
+   "3": {
+        "hfov": 70,
+        "pitch": 15.422,
+        "yaw": -40.90,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmanB1.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+              "hfov": 70,
+        "pitch": 15.422,
+        "yaw": -40.90,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "5"
+            },
+            { 
+                "pitch": 12.44,
+                "yaw": 11.90,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "9"
+            },
+            {
+                  "pitch": -17.4,
+                  "yaw": 34.6,
+                  "type":"Info",
+                  "text": "Padmavati Lake: There is a small fresh water lake on Padmavati Machee. The chor darwaza leads to here directly. The walls of the lake are intact even today and the lake never dries up (even in the hottest summer). Once you climb the fort, it would be a good idea to remove your shoes and relax a little by dangling your feet in the water. There are small fish in the lake and they come to nibble at the dead skin on your feet",
+                 
+               },
+         ]
+    },
+    "4": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvmaukv.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "5"
+            }  
+         ]
+    },
+   "5": {
+        "hfov": 70,
+        "pitch": 2.571,
+        "yaw": -92.1,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmaNC7.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { "hfov": 70,
+        "pitch": 2.571,
+        "yaw": -92.1,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "6"
+            }  
+         ]
+    },
+   "6": {
+        "hfov": 70,
+        "pitch": 10.94,
+        "yaw": -81.61,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmaOG9.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { "hfov": 70,
+        "pitch": 10.94,
+        "yaw": -81.61,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "7"
+            }  
+         ]
+    },
+   "7": {
+        "hfov": 70,
+        "pitch": -1.11,
+        "yaw": 84.63,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmcKas.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+         "hfov": 70,
+        "pitch": -1.11,
+        "yaw": 84.63,             
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "8"
+            }  
+         ]
+    },
+   "8": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmcFFn.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "9"
+            }  
+         ]
+    },
+   "9": {
+        "hfov": 70,
+        "pitch": -1.45,
+        "yaw": -331.65,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvm1mlt.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { "hfov": 70,
+        "pitch": -1.87,
+        "yaw": -150.06,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "10"
+            },
+             { "hfov": 70,
+        "pitch": -1.92,
+        "yaw": 44.44,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "24"
+            },
+                { "hfov": 70,
+        "pitch": -3.82,
+        "yaw": 4,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "23"
+            }  
+         ]
+    },
+   "10": {
+        "hfov": 70,
+        "pitch": 14.40,
+        "yaw": 11.94,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvm1pUX.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            {  "hfov": 70,
+        "pitch": 14.40,
+        "yaw": 11.01,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "11"
+            }  
+         ]
+    },
+   "11": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmEMzv.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "12"
+            }  
+         ]
+    },
+   "12": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmEvmG.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "13"
+            }  
+         ]
+    },
+   "13": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmESIf.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "14"
+            }  
+         ]
+    },
+   "14": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": " https://iili.io/HvmV4BR.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "15"
+            }  
+         ]
+    },
+   "15": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmVUhJ.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "16"
+            }  
+         ]
+    },
+   "16": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmVSIa.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "17"
+            }  
+         ]
+    },
+   "17": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmVgLv.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "18"
+            }  
+         ]
+    },
+   "18": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhKsj.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "19"
+            }  
+         ]
+    },
+   "19": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhFWb.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "20"
+            }  
+         ]
+    },
+   "20": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": " https://iili.io/Hvmhdbe.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "21"
+            }  
+         ]
+    },
+   "21": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhKsj.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "22"
+            }  
+         ]
+    },
+   
+   "22": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhB0Q.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "23"
+            }  
+         ]
+    },
+   "23": {
+        "hfov": 70,
+        "pitch": 0,
+        "yaw": 0,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhodB.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+              "hfov": 70,
+        "pitch": -1.16,
+        "yaw": -182.58,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "9"
+            }  
+         ]
+    },
+    "24": {
+        "hfov": 70,
+        "pitch": -22.93,
+        "yaw": 66,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvmhx5P.jpg",
+        "hotSpotDebug": true,
+        "autoLoad": true,
+        "hotSpots": [
+            {  "hfov": 70,
+        "pitch": 0.95,
+        "yaw": -136.6,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "9"
+            },
+                {  "hfov": 70,
+        "pitch": -22.93,
+        "yaw": 66,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "25"
+            }  
+         ]
+    },
+   "25": {
+        "hfov": 70,
+        "pitch": 10.06,
+        "yaw": -101,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmhCgV.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { "hfov": 70,
+        "pitch": 10.06,
+        "yaw": -101,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "24"
+            },  
+            { "hfov": 70,
+        "pitch": 2.59,
+        "yaw": -260.60,
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "24"
+            }
+         ]
+    },
+   "1011": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/Hvm8pgs.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "27"
+            }  
+         ]
+    },
+   "20211": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSJe4.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "28"
+            }  
+         ]
+    },
+   "20212": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSFXS.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "29"
+            }  
+         ]
+    },
+   "20213": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSFXS.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "30"
+            }  
+         ]
+    },
+   "111214": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSx7j.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "31"
+            }  
+         ]
+    },
+   "1112": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSzkx.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "32"
+            }  
+         ]
+    },
+   
+   "1718": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSYEF.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "33"
+            }  
+         ]
+    },
+   "1920": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmS0YJ.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "34"
+            }  
+         ]
+    },
+    "8648": {
+        "hfov": 70,
+        "pitch": -2.171,
+        "yaw": 47,
+        "type": "equirectangular",
+        "panorama": "https://iili.io/HvmSVhN.jpg",
+        "hotSpotDebug": false,
+        "autoLoad": true,
+        "hotSpots": [
+            { 
+                 "type": "scene",
+                 "text": "next",
+                 "sceneId": "35"
+            }  
+         ]
+    }
+
+    }
+});
+</script>
+
+</body>
+</html>
+
